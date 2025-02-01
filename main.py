@@ -5,7 +5,7 @@ class OpenRouterChatBot:
     def __init__(self):
         self.client = OpenAI(
             base_url="https://openrouter.ai/api/v1",
-            api_key="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",
+            api_key="Your_API_KEY_HERE",
         )
         self.conversation_history = []
         self.system_prompt = {
